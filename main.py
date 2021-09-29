@@ -1,7 +1,15 @@
+import random
+
+
+def the_func(name):
+    return f"Yeah {name}"
+
+
 def main():
     print("This is my cool app")
+    names = ['Alice', 'Bob', 'Carol']
     for i in range(100):
-        print("This is message")
+        print(the_func(random.choice(names)))
 
 
 if __name__ == '__main__':
