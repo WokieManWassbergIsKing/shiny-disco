@@ -1,4 +1,5 @@
 import random
+import pygame
 
 
 def yeah_producer(name):
