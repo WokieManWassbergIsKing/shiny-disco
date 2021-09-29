@@ -1,7 +1,7 @@
 import random
 
 
-def the_func(name):
+def yeah_producer(name):
     return f"Yeah {name}"
 
 
@@ -9,7 +9,7 @@ def main():
     print("This is my cool app")
     names = ['Alice', 'Bob', 'Carol']
     for i in range(100):
-        print(the_func(random.choice(names)))
+        print(yeah_producer(random.choice(names)))
 
 
 if __name__ == '__main__':
