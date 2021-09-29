@@ -1,3 +1,5 @@
+# This is the app that will change the world
+
 def main():
     print("This is my cool app")
     for i in range(100):
