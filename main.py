@@ -1,7 +1,9 @@
 import random
 
+
 def the_func(name):
     return f"Yeah {name}"
+
 
 def main():
     print("This is my cool app")
