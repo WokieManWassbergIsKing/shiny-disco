@@ -1,5 +1,5 @@
 def main():
-    pass
+    print("This is my cool app")
 
 
 
